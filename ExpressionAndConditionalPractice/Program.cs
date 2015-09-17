@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace UsingMethods
+namespace ExpressionsAndConditionalsPractice
 {
     class Program
     {
