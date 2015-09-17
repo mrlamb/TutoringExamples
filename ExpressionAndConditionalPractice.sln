@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressionAndConditionalPractice", "ExpressionAndConditionalPractice\ExpressionAndConditionalPractice.csproj", "{225C1F21-EBC6-4395-B6AD-596F508E4F0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariablesPractice", "ConsoleApplication1\VariablesPractice.csproj", "{32278232-5847-48A0-9171-5B7005FB792A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{225C1F21-EBC6-4395-B6AD-596F508E4F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{225C1F21-EBC6-4395-B6AD-596F508E4F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{225C1F21-EBC6-4395-B6AD-596F508E4F0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32278232-5847-48A0-9171-5B7005FB792A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32278232-5847-48A0-9171-5B7005FB792A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32278232-5847-48A0-9171-5B7005FB792A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32278232-5847-48A0-9171-5B7005FB792A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
