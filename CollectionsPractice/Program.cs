@@ -52,7 +52,6 @@ namespace CollectionsPractice
             Console.WriteLine(intArray[rnd.Next(4)].ToString());
             Console.WriteLine(intList[rnd.Next(4)].ToString());
             Console.ReadLine();
-
         }
     }
 }

@@ -15,8 +15,6 @@ namespace UsingMethods
             ChangeMessage(message);
             Console.WriteLine("This message was generated using the ChangeMessage() method that returns nothing: {0}", message);
             Console.ReadLine();
-
-            
         }
         /// <summary>
         /// Checks to see which userNumber is bigger and returns a string saying greater than,
@@ -25,7 +23,6 @@ namespace UsingMethods
         /// <returns>string message</returns>
         private static string ChangeMessage()
         {
-            
             throw new NotImplementedException();
         }
 
