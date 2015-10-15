@@ -12,7 +12,10 @@ namespace UsingMethods
             GetTwoNumbers();
             message = ChangeMessage();
             Console.WriteLine("This message was generated using the ChangeMessage() method that returns a string: {0}", message);
-            ChangeMessage(message);
+
+            message = string.Empty;
+
+            ChangeMessage(ref message);
             Console.WriteLine("This message was generated using the ChangeMessage() method that returns nothing: {0}", message);
             Console.ReadLine();
         }
@@ -23,7 +26,8 @@ namespace UsingMethods
         /// <returns>string message</returns>
         private static string ChangeMessage()
         {
-            throw new NotImplementedException();
+            message = userNumber1 > userNumber2 ? ">" : "<";
+            return message;
         }
 
         /// <summary>
@@ -31,9 +35,9 @@ namespace UsingMethods
         /// greater than, less than or equal to
         /// </summary>
         /// <param name="message">string to modify</param>
-        private static void ChangeMessage(String message)
+        private static void ChangeMessage(ref string message)
         {
-
+            message = userNumber1 > userNumber2 ? ">" : "<";
         }
 
         /// <summary>
